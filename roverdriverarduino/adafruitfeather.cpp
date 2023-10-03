@@ -10,7 +10,7 @@
 
 #include "packetParser.h"
 #include "roverConfig.h"
-
+//#define BOARD_ADAFRUIT_nRF52832 4 // added by yassine
 #ifdef BOARD_ADAFRUIT_nRF52832
 #include <bluefruit.h>
 
